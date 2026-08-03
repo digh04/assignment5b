@@ -1,0 +1,15 @@
+name: ml-r
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base
+  - r-irkernel
+  - jupyter
+  - jupyter_client
+  - r-caret
+  - r-ggplot2
+  - r-lattice
+  - r-tidyverse
+prefix: /users/PAS3421/digh04/.conda/envs/ml-r

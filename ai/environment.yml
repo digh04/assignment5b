@@ -1,0 +1,16 @@
+name: ml-r
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base
+  - r-irkernel
+  - jupyter
+  - jupyter_client
+  - r-caret
+  - r-ggplot2
+  - r-lattice
+  - r-tidyverse
+  - r-kernlab      # required by caret for svmRadial
+  - r-randomforest # required by caret for rf
